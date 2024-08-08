@@ -1,8 +1,8 @@
 on: push
-name: deploy
+name: deployar
 jobs:
   deploy:
-    name: deploy to cluster
+    name: deployar en cluster
     runs-on: ububtu-latest
     steps:
     - uses: action/checkout@master
